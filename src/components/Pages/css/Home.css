@@ -1,0 +1,18 @@
+.home-music-container {
+  display: grid;
+  grid-template-columns: 18% 80%;
+  user-select: none;
+  background-color: #1e2a3e;
+  opacity: 1;
+  background-image:  linear-gradient(30deg, #233656 12%, transparent 12.5%, transparent 87%, #233656 87.5%, #233656), linear-gradient(150deg, #233656 12%, transparent 12.5%, transparent 87%, #233656 87.5%, #233656), linear-gradient(30deg, #233656 12%, transparent 12.5%, transparent 87%, #233656 87.5%, #233656), linear-gradient(150deg, #233656 12%, transparent 12.5%, transparent 87%, #233656 87.5%, #233656), linear-gradient(60deg, #23365677 25%, transparent 25.5%, transparent 75%, #23365677 75%, #23365677), linear-gradient(60deg, #23365677 25%, transparent 25.5%, transparent 75%, #23365677 75%, #23365677);
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+@media only screen and (max-width: 970px) {
+  .home-music-container {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=Home.scss.map */

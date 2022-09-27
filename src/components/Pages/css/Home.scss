@@ -1,0 +1,46 @@
+.Home-skeleton{
+  height: 100vh;
+  width: 100vw;
+}
+.home-music-container{
+  display: flex;
+  .sidebar-home{
+    flex: 0.2;
+  }
+  .main-home{
+    flex: 0.8;
+  }
+
+  color: #fff;
+  // background-color: #1e2a3e;
+  // opacity: 1;
+  // background-image:  linear-gradient(30deg, #233656 12%, transparent 12.5%, transparent 87%, #233656 87.5%, #233656), linear-gradient(150deg, #233656 12%, transparent 12.5%, transparent 87%, #233656 87.5%, #233656), linear-gradient(30deg, #233656 12%, transparent 12.5%, transparent 87%, #233656 87.5%, #233656), linear-gradient(150deg, #233656 12%, transparent 12.5%, transparent 87%, #233656 87.5%, #233656), linear-gradient(60deg, #23365677 25%, transparent 25.5%, transparent 75%, #23365677 75%, #23365677), linear-gradient(60deg, #23365677 25%, transparent 25.5%, transparent 75%, #23365677 75%, #23365677);
+  // background-size: 80px 140px;
+  // background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+
+  background-color: #1e2a3e;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( 
+        circle at center left, 
+        transparent 0, 
+        #1e2a3e 60px 
+    ), 
+    repeating-linear-gradient( #23365655, #233656 );
+}
+.current-large-banner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+}
+@media only screen and (max-width: 970px) {
+  .home-music-container {
+    .sidebar-home{
+      flex: 0;
+    }
+    .main-home{
+      flex: 1;
+    }
+  }
+}
