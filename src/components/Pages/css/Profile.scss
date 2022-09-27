@@ -73,6 +73,7 @@
 @media only screen and (max-width: 580px) {
   .Profile{
     .top-profile{
+      color: #fff;
       .profile-detail{
         h3{
           font-size: 3rem;
@@ -85,5 +86,8 @@
         justify-content: center;
       }
     }
+  }
+  .profile-playlist{
+    color: #fff;
   }
 }

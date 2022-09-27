@@ -36,7 +36,7 @@ function Navigation() {
                 {/*<NavigationButton href={"/home/add"} name={"Add"}/>*/}
             </div>
             <SearchBar/>
-            <div className={"language"} onClick={handleOpenLanguageList}>
+            {/* <div className={"language"} onClick={handleOpenLanguageList}>
                 <Button className={"Dropdown-btn"}
                         endIcon={isLanguageListOpen ? <ExpandMoreIcon/> : <ExpandLessIcon/>}>
                     <div className="wrapper">
@@ -48,7 +48,7 @@ function Navigation() {
                     &&
                     <DropDownLanguageList/>
                 }
-            </div>
+            </div> */}
             <div className="profile" onClick={handleOpenProfile}>
                 <Button className={"Dropdown-btn"}
                         startIcon={<Avatar style={{width:'30px',height:'30px',padding:'18px'}} >UH</Avatar>}

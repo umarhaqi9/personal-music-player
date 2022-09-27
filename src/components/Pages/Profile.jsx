@@ -44,9 +44,9 @@ function Profile() {
                         <h3>Umar Haqi</h3>
                         <span className={"profile-playlist"}>
                             <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay}
-                                            href={"/home/playlist/instrumental"} title={"Instrumental"}/>
-                            <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/electronic"}
-                                            title={"Electronic"}/>
+                                            href={"/home/playlist/acoustic"} title={"Acoustic"}/>
+                            <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/rock"}
+                                            title={"Rock"}/>
                         </span>
                     </div>
                 </div>

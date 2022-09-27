@@ -7,7 +7,7 @@ let musicDB = [
         img: "oor_ld_acoustic.jpg",
         lang: "ENGLISH",
         timesPlayed: 4,
-        type: "instrumental",
+        type: "acoustic",
         musicName: "Vandalize.mp3",
         attribution: {
             song: "Vandalize (Acoustic)",
@@ -23,7 +23,7 @@ let musicDB = [
         img: "oor_ld_acoustic.jpg",
         lang: "ENGLISH",
         timesPlayed: 9,
-        type: "instrumental",
+        type: "acoustic",
         musicName: "Your Tears are Mine.mp3",
         attribution: {
             song: "Your Tears are Mine (Acoustic)",
@@ -39,7 +39,7 @@ let musicDB = [
         img: "cover2.jpg",
         lang: "ENGLISH",
         timesPlayed: 8,
-        type: "instrumental",
+        type: "rock",
         musicName: "Gravity (feat. Satoshi Fujihara) [OFFICIAL HIGE DANDISM].mp3",
         attribution: {
             song: "Gravity",
@@ -55,7 +55,7 @@ let musicDB = [
         img: "cover.jpg",
         lang: "ENGLISH",
         timesPlayed: 9,
-        type: "instrumental",
+        type: "rock",
         musicName: "Save Yourself (International Version).mp3",
         attribution: {
             song: "Save Yourself",
@@ -71,7 +71,7 @@ let musicDB = [
         img: "Renegades.jpg",
         lang: "ENGLISH",
         timesPlayed: 25,
-        type: "instrumental",
+        type: "rock",
         musicName: "Renegades.mp3",
         attribution: {
             song: "Renegades",
@@ -87,7 +87,7 @@ let musicDB = [
         img: "eots.jpg",
         lang: "ENGLISH",
         timesPlayed: 25,
-        type: "instrumental",
+        type: "rock",
         musicName: "06 Wasted Nights.m4a",
         attribution: {
             song: "Wasted Nights",
@@ -103,7 +103,7 @@ let musicDB = [
         img: "eots.jpg",
         lang: "ENGLISH",
         timesPlayed: 25,
-        type: "instrumental",
+        type: "rock",
         musicName: "02 Stand Out Fit In.m4a",
         attribution: {
             song: "Stand Out Fit In",
@@ -119,10 +119,138 @@ let musicDB = [
         img: "ambitions.jpg",
         lang: "ENGLISH",
         timesPlayed: 25,
-        type: "instrumental",
+        type: "rock",
         musicName: "03. Taking Off.mp3",
         attribution: {
             song: "Taking Off",
+            musicBy: "ONE OK ROCK",
+            download: null,
+            stream: null
+        }
+    },
+    {
+        id: 8,
+        name: "We Are (Acoustic)",
+        author_name: "ONE OK ROCK",
+        img: "dtnals.png",
+        lang: "ENGLISH",
+        timesPlayed: 25,
+        type: "acoustic",
+        musicName: "We Are.flac",
+        attribution: {
+            song: "We Are",
+            musicBy: "ONE OK ROCK",
+            download: null,
+            stream: null
+        }
+    },
+    {
+        id: 9,
+        name: "Taking Off (Acoustic)",
+        author_name: "ONE OK ROCK",
+        img: "dtnals.png",
+        lang: "ENGLISH",
+        timesPlayed: 25,
+        type: "acoustic",
+        musicName: "Taking Off.flac",
+        attribution: {
+            song: "Taking Off (acoustic)",
+            musicBy: "ONE OK ROCK",
+            download: null,
+            stream: null
+        }
+    },
+    {
+        id: 10,
+        name: "First Love (Acoustic)",
+        author_name: "ONE OK ROCK",
+        img: "dtnals.png",
+        lang: "ENGLISH",
+        timesPlayed: 25,
+        type: "acoustic",
+        musicName: "First Love.flac",
+        attribution: {
+            song: "First Love (acoustic)",
+            musicBy: "ONE OK ROCK",
+            download: null,
+            stream: null
+        }
+    },
+    {
+        id: 11,
+        name: "The Beginning (Acoustic)",
+        author_name: "ONE OK ROCK",
+        img: "dtnals.png",
+        lang: "ENGLISH",
+        timesPlayed: 25,
+        type: "acoustic",
+        musicName: "The Beginning.flac",
+        attribution: {
+            song: "The Beginning (acoustic)",
+            musicBy: "ONE OK ROCK",
+            download: null,
+            stream: null
+        }
+    },
+    {
+        id: 12,
+        name: "One Way Ticket + Clock Strikes",
+        author_name: "ONE OK ROCK",
+        img: "cover_fow.jpg",
+        lang: "ENGLISH",
+        timesPlayed: 25,
+        type: "rock",
+        musicName: "One Way Ticket + Clock Strikes.flac",
+        attribution: {
+            song: "One Way Ticket + Clock Strikes",
+            musicBy: "ONE OK ROCK",
+            download: null,
+            stream: null
+        }
+    },
+    {
+        id: 13,
+        name: "C.h.a.o.s.m.y.t.h",
+        author_name: "ONE OK ROCK",
+        img: "cover_fow.jpg",
+        lang: "ENGLISH",
+        timesPlayed: 25,
+        type: "rock",
+        musicName: "C.h.a.o.s.m.y.t.h.flac",
+        attribution: {
+            song: "C.h.a.o.s.m.y.t.h",
+            musicBy: "ONE OK ROCK",
+            download: null,
+            stream: null
+        }
+    },
+    {
+        id: 14,
+        name: "Wonder (Acoustic)",
+        author_name: "ONE OK ROCK",
+        img: "applehome.jpg",
+        lang: "ENGLISH",
+        timesPlayed: 25,
+        type: "acoustic",
+        musicName: "01.Wonder (Apple Music Home Session).flac",
+        attribution: {
+            song: "Wonder (Acoustic)",
+            musicBy: "ONE OK ROCK",
+            download: null,
+            stream: null
+        }
+    },
+    {
+        id: 15,
+        name: "Easy On Me",
+        author_name: "ONE OK ROCK",
+        img: "applehome.jpg",
+        lang: "ENGLISH",
+        timesPlayed: 25,
+        type: "rock",
+        musicName: "02.Easy On Me (Apple Music Home Session).flac",
+        attribution: {
+            song: "Easy On Me",
             musicBy: "ONE OK ROCK",
             download: null,
             stream: null
