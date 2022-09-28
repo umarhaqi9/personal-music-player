@@ -136,7 +136,7 @@ let musicDB = [
         lang: "ENGLISH",
         timesPlayed: 25,
         type: "acoustic",
-        musicName: "We Are.flac",
+        musicName: "01.We are.mp3",
         attribution: {
             song: "We Are",
             musicBy: "ONE OK ROCK",
@@ -152,7 +152,7 @@ let musicDB = [
         lang: "ENGLISH",
         timesPlayed: 25,
         type: "acoustic",
-        musicName: "Taking Off.flac",
+        musicName: "10.Taking Off.mp3",
         attribution: {
             song: "Taking Off (acoustic)",
             musicBy: "ONE OK ROCK",
@@ -168,7 +168,7 @@ let musicDB = [
         lang: "ENGLISH",
         timesPlayed: 25,
         type: "acoustic",
-        musicName: "First Love.flac",
+        musicName: "09.First Love.mp3",
         attribution: {
             song: "First Love (acoustic)",
             musicBy: "ONE OK ROCK",
@@ -184,7 +184,7 @@ let musicDB = [
         lang: "ENGLISH",
         timesPlayed: 25,
         type: "acoustic",
-        musicName: "The Beginning.flac",
+        musicName: "04.The Beginning.mp3",
         attribution: {
             song: "The Beginning (acoustic)",
             musicBy: "ONE OK ROCK",
@@ -200,7 +200,7 @@ let musicDB = [
         lang: "ENGLISH",
         timesPlayed: 25,
         type: "rock",
-        musicName: "One Way Ticket + Clock Strikes.flac",
+        musicName: "One Way Ticket + Clock Strikes.mp3",
         attribution: {
             song: "One Way Ticket + Clock Strikes",
             musicBy: "ONE OK ROCK",
@@ -216,7 +216,7 @@ let musicDB = [
         lang: "ENGLISH",
         timesPlayed: 25,
         type: "rock",
-        musicName: "C.h.a.o.s.m.y.t.h.flac",
+        musicName: "C.h.a.o.s.m.y.t.h.mp3",
         attribution: {
             song: "C.h.a.o.s.m.y.t.h",
             musicBy: "ONE OK ROCK",
@@ -256,6 +256,70 @@ let musicDB = [
             stream: null
         }
     },
+    {
+        id: 16,
+        name: "Deeper Deeper (Acoustic)",
+        author_name: "ONE OK ROCK",
+        img: "dtnals.png",
+        lang: "ENGLISH",
+        timesPlayed: 25,
+        type: "acoustic",
+        musicName: "05.Deeper Deeper.mp3",
+        attribution: {
+            song: "Deeper Deeper (acoustic)",
+            musicBy: "ONE OK ROCK",
+            download: null,
+            stream: null
+        }
+    },
+    {
+        id: 17,
+        name: "Heartache (Acoustic)",
+        author_name: "ONE OK ROCK",
+        img: "dtnals.png",
+        lang: "ENGLISH",
+        timesPlayed: 25,
+        type: "acoustic",
+        musicName: "06.Heartache.mp3",
+        attribution: {
+            song: "Heartache (acoustic)",
+            musicBy: "ONE OK ROCK",
+            download: null,
+            stream: null
+        }
+    },
+    {
+        id: 18,
+        name: "Wasted Nights (Acoustic)",
+        author_name: "ONE OK ROCK",
+        img: "dtnals.png",
+        lang: "ENGLISH",
+        timesPlayed: 25,
+        type: "acoustic",
+        musicName: "13.Wasted Nights.mp3",
+        attribution: {
+            song: "Wasted Nights (acoustic)",
+            musicBy: "ONE OK ROCK",
+            download: null,
+            stream: null
+        }
+    },
+    {
+      id: 19,
+      name: "Prove",
+      author_name: "ONE OK ROCK",
+      img: "cover2.jpg",
+      lang: "ENGLISH",
+      timesPlayed: 8,
+      type: "rock",
+      musicName: "07.Prove.mp3",
+      attribution: {
+          song: "Prove",
+          musicBy: "ONE OK ROCK",
+          download: null,
+          stream: null
+      }
+  },
 ];
 
 export default musicDB;

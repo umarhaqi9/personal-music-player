@@ -3,7 +3,6 @@ import '../assets/scss/BottomNavigation.scss';
 import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
 import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined';
 import SearchIcon from '@material-ui/icons/Search';
-import ExploreOutlinedIcon from '@material-ui/icons/ExploreOutlined';
 import Button from "@material-ui/core/Button";
 import {Link} from "react-router-dom";
 
