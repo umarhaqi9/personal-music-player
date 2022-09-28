@@ -200,7 +200,7 @@ let musicDB = [
         lang: "ENGLISH",
         timesPlayed: 25,
         type: "rock",
-        musicName: "One Way Ticket + Clock Strikes.mp3",
+        musicName: "One Way Strikes.mp3",
         attribution: {
             song: "One Way Ticket + Clock Strikes",
             musicBy: "ONE OK ROCK",
